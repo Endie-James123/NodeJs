@@ -9,7 +9,7 @@ const createFile = fileSystem.writeFile('./newFile.txt','New text file created',
 
 //Reading a file
 const readFile = fileSystem.readFile('./newFile.txt','utf-8',(err, data)=>{
-    if (err) throw err
+    if (err) throw err 
     console.log(data);
 })
 module.exports = {createFile,readFile}
