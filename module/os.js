@@ -5,5 +5,5 @@ const checkOs = pcOs.version()
 let totalMemory = pcOs.totalmem();
 // To check the system's free memory
 let freeMemory = pcOs.freemem();
-//Code bellow
+//Code bellow is what we want to 
 console.log(`Total memory: ${totalMemory} free memory: ${freeMemory}`); 
